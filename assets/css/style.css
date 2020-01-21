@@ -1254,8 +1254,8 @@ text-transform: uppercase;
 }
 
 .single-testimonial {
-    color: #fff;
-	padding: 30px 25px;
+    color: black;
+	padding: 10px 25px;
 }
 .testimonial-content{
 	margin-bottom: 20px;
@@ -1283,14 +1283,14 @@ text-transform: uppercase;
 	color: #ffc000;
 	font-size: 14px;
 }
-.testimonial .owl-carousel .owl-item img{	
+/*.testimonial .owl-carousel .owl-item img{	
 	width: 80px;
 	height: 80px;
 	border-radius: 50%;
 	margin-bottom: 5px;
 	display: inline-block;
 	border: inherit;
-} 
+} */
 
 #testimonial-slider .owl-controls{
 	position: absolute;
@@ -1314,6 +1314,9 @@ text-transform: uppercase;
 }
 #testimonial-slider .owl-controls .owl-next{
 	right: -5%;
+}
+.section-padding{
+	padding: 5px 0;
 }
 /*
  * ----------------------------------------------------------------------------------------
