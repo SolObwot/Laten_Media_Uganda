@@ -27,8 +27,8 @@ Version      : 1.0
 * ----------------------------------------------------------------------------------------
 */
 body {
-	color: #727272;
-	font-family: 'Nunito', sans-serif;
+	color: #131111;
+	font-family: 'Helvetica', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 28px;
@@ -45,7 +45,7 @@ h5,
 h6 {
 	letter-spacing: 0px;
 	margin-top: 0px; 
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	color: #333;
 	font-weight: 700;
 	line-height: normal;
@@ -1332,13 +1332,13 @@ text-transform: uppercase;
 * 12.START COMPANY PARTNER LOGO
 * ----------------------------------------------------------------------------------------
 */
-.partner-logo {
+#partner-logo {
   position: relative;
   padding: 0px 0 100px;
 }
 
-.partner { text-align: center }
-.partner.owl-theme .owl-controls {display: none!important;}
+partner { text-align: center }
+.partner.owl-theme .owl-controls {display: !important;}
 .partner-logo .owl-carousel .owl-item img {
 	border: 4px solid #eee;
 	display: inline-block;
@@ -1839,9 +1839,9 @@ text-transform: uppercase;
 	.slicknav_btn {
 		top: 9px;
 	}
-	.why-choose-img {
+	/* .why-choose-img {
 		margin-bottom: 40px;
-	}
+	} */
 	.single_tour_details{
 		padding-right: 0;
 		margin-bottom: 30px;
