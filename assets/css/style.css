@@ -1482,15 +1482,12 @@ partner { text-align: center }
 	color: #727272;
 }
 
+.footer p{
+	color: #727272;
+}
+
 .footer .copyright{
 	padding-top: 30px;
-}
-.footer .copyright p{
-	margin-bottom: 0;
-	font-weight: 600;
-}
-.footer a{
-	transition: .5s;
 }
 .footer a:hover,
 .footer a:focus{
