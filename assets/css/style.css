@@ -850,6 +850,10 @@ video { min-width: 100%; }
 	opacity: 1;
 	filter: alpha(opacity=100);
 }
+.single-deal ul{
+	list-style: inside;
+}
+
 #package-slider .owl-controls{
 	margin-top: 15px;
 }
